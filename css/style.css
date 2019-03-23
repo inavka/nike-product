@@ -1,0 +1,291 @@
+body{
+
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+body {
+	background: rgba(104,62,152,1);
+	background: -moz-linear-gradient(left, rgba(104,62,152,1) 0%, rgba(172,113,175,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(104,62,152,1)), color-stop(100%, rgba(172,113,175,1)));
+	background: -webkit-linear-gradient(left, rgba(104,62,152,1) 0%, rgba(172,113,175,1) 100%);
+	background: -o-linear-gradient(left, rgba(104,62,152,1) 0%, rgba(172,113,175,1) 100%);
+	background: -ms-linear-gradient(left, rgba(104,62,152,1) 0%, rgba(172,113,175,1) 100%);
+	background: url("../img/background-stars.png") center center, linear-gradient(to right, rgba(104,62,152,1) 0%, rgba(172,113,175,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#683e98', endColorstr='#ac71af', GradientType=1 );
+	background-size: 100%;
+	height: 100vh;
+}
+header {
+	width: 750px;
+	margin: 0 auto;
+}
+header * {
+	display: inline-block;
+}
+.logo {
+	float: left;
+	margin: 25px;
+}
+.menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+.menu-item {
+	margin: 10px 20px 0 20px;
+}
+.menu-item a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 12px;
+}
+.menu-item:hover{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ffffff;
+}
+.menu-toggle {
+	background: url("../img/btn_menu.png") no-repeat;
+	width: 25px;
+	height: 25px;
+	float: right;
+	margin-top: 30px;
+}
+.card1 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+	width: 750px;
+	height: 430px;
+	background: url("../img/bg_title.jpg");
+
+	font-size: 0;
+}
+.card2 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+	width: 800px;
+	height: 395px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.card3 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+	width: 780px;
+	height: 410px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.product {
+	display: inline-block;
+	width: 500px;
+	vertical-align: top;
+}
+.product-image {
+	padding-left: 45px;
+	padding-top: 40px;
+}
+button {
+	background: none;
+	border: none;
+}
+.zoom__button {
+	width: 20px;
+	height: 20px;
+	background: url("../img/btn_add.png");
+	float: right;
+	margin-right: 20px;
+}
+.small-images {
+	text-align: center;
+	padding-left: 30px;
+	margin-top: 30px;
+}
+.small-images__item {
+	width: 42px;
+	height: 42px;
+	border: 1px solid #ffffff;
+}
+.nike1 {
+	background: url("../img/nike1.png") center center;
+	margin-left: 9px;
+	margin-right: 9px;
+}
+.nike2 {
+	background: url("../img/nike2.png") center center;
+	margin-left: 9px;
+	margin-right: 9px;
+}
+.nike3 {
+	background: url("../img/nike3.png") center center;
+	margin-left: 9px;
+	margin-right: 9px;
+ }
+.product-info {
+	display: inline-block;
+	vertical-align: top;
+	width: 250px;
+	height: 448px;
+}
+.close__button {
+	width: 15px;
+	height: 15px;
+	background: url("../img/btn_close.png") center center;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.new {
+	width: 45px;
+	height: 25px;
+	background-color: #ffa60d;
+	color: #ffffff;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	line-height: 25px;
+	text-align: center;
+	margin-top: 45px;
+	margin-left: 30px;
+}
+.title {
+	font-family: "Roboto Condensed", sans-serif;
+	color: #000000;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-left: 30px;
+}
+.title span {
+	color: #5e4fff;
+}
+.rate {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 12px;
+	color: #000000;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.rate img {
+	padding-left: 10px;
+}
+.price {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #000000;
+	font-size: 22px;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.size {
+	color: #000000;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+.size p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+.size__button {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
+
+	width: 25px;
+	height: 25px;
+	margin-right: 17px;
+}
+.size__button:hover {
+	border: 1px solid #000000;
+}
+.add-to-cart__button {
+	margin-left: 30px;
+	margin-top: 35px;
+	width: 115px;
+	height: 30px;
+	background-color: #a200b8;
+
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.wishlist__button {
+	margin-left: 30px;
+	margin-top: 5px;
+	width: 115px;
+	height: 30px;
+	border: 1px solid #000000;
+
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #000000;
+}
